@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Sistem-Keamanan-Brankas
-=======
 # ◈ Sistem Keamanan Brankas ◈
 
 ### Tentang Alat
@@ -52,5 +49,3 @@ Output: Buzzer mengeluarkan suara 1 kali dan Solenoid tertutup\
 Telegram:\
 ▸ Sidik jari dan Wajah tidak dikenali\
 ▸ bila terdapat indikasi ketidak sesuaian data, harap hubungi pihak keamanan!
-
->>>>>>> 8fb823b (Sistem Keamanan Brankas)
