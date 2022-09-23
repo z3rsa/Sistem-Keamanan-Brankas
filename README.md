@@ -1,7 +1,7 @@
 # ◈ Sistem Keamanan Brankas ◈
 
 ### Tentang Alat
-Alat Sistem Keamanan Brankas merupakan Tugas Akhir\
+Alat Sistem Keamanan Brankas merupakan Tugas Akhir
 
 Hardware yang dipakai :\
 ◈ AS608 Fingerprint Sensor\
