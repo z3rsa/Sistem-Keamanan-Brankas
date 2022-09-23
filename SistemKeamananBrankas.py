@@ -139,7 +139,7 @@ while True:
                     print("Foto tidak berhasil disimpan")
                     cv2.imwrite("dikenal/img"+str(samplenum)+".jpg", frame)
                 print("Sidik jari sesuai dan Wajah dikenali")
-                list_of_files = glob.glob('/home/pi/SistemKeamananBrankas/dikenal/*') # * means all if need specific format then *.csv
+                list_of_files = glob.glob('#DirektoriFolderProject/*') # * means all if need specific format then *.csv
                 latest_file = max(list_of_files, key=os.path.getctime)
                 bot.sendPhoto(chat_id, photo=open(latest_file, 'rb'))
                 bot.sendMessage(chat_id, "Sidik jari dan Wajah sesuai")
@@ -176,7 +176,7 @@ while True:
                     print("Foto tidak berhasil disimpan")
                     cv2.imwrite("tidakkenal/img"+str(samplenum)+".jpg", frame)
                 print("Sidik jari sesuai dan Wajah tidak dikenali")
-                list_of_files = glob.glob('/home/pi/SistemKeamananBrankas/tidakkenal/*') # * means all if need specific format then *.csv
+                list_of_files = glob.glob('#DirektoriFolderProject/*') # * means all if need specific format then *.csv
                 latest_file = max(list_of_files, key=os.path.getctime)
                 bot.sendPhoto(chat_id, photo=open(latest_file, 'rb'))
                 GPIO.output(26, GPIO.HIGH)
@@ -213,7 +213,7 @@ while True:
                     print("Foto tidak berhasil disimpan")
                     cv2.imwrite("dikenal/img"+str(samplenum)+".jpg", frame)
                 print("Sidik jari tidak sesuai tapi Wajah dikenali")
-                list_of_files = glob.glob('/home/pi/SistemKeamananBrankas/dikenal/*') # * means all if need specific format then *.csv
+                list_of_files = glob.glob('#DirektoriFolderProject/*') # * means all if need specific format then *.csv
                 latest_file = max(list_of_files, key=os.path.getctime)
                 bot.sendPhoto(chat_id, photo=open(latest_file, 'rb'))
                 GPIO.output(26, GPIO.HIGH)
@@ -239,7 +239,7 @@ while True:
                     print("Foto tidak berhasil disimpan")
                     cv2.imwrite("tidakkenal/img"+str(samplenum)+".jpg", frame)
                 print("Sidik jari tidak sesuai dan Wajah tidak dikenali")
-                list_of_files = glob.glob('/home/pi/SistemKeamananBrankas/tidakkenal/*') # * means all if need specific format then *.csv
+                list_of_files = glob.glob('#DirektoriFolderProject/*') # * means all if need specific format then *.csv
                 latest_file = max(list_of_files, key=os.path.getctime)
                 bot.sendPhoto(chat_id, photo=open(latest_file, 'rb'))
                 GPIO.output(26, GPIO.HIGH)
