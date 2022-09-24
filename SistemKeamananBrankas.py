@@ -14,7 +14,7 @@ from time import sleep
 
 # Wilayah Inisialisasi
 samplenum = int()
-GPIO.setwarnings(True)
+GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 GPIO.setup(21, GPIO.OUT) # Relay
@@ -94,7 +94,6 @@ face_cascade = cv2.CascadeClassifier('face-detect.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read('recognizer/dataTraining.yml')
 id=0
-count = 0
 font=cv2.FONT_HERSHEY_SIMPLEX
 
 GPIO.output(21, GPIO.HIGH) # Kondisi Relay Awal Mati
