@@ -4,17 +4,17 @@
 Alat Sistem Keamanan Brankas merupakan Tugas Akhir
 
 Hardware yang dipakai :
-```◈ AS608 Fingerprint Sensor\
-◈ Buzzer\
-◈ Camera OV5647\
-◈ Raspberry Pi 4\
-◈ Relay\
+```◈ AS608 Fingerprint Sensor
+◈ Buzzer
+◈ Camera OV5647
+◈ Raspberry Pi 4
+◈ Relay
 ◈ Solenoid
 
-Software yang dipakai :\
-◈ OpenCV\
-◈ Python\
-◈ Telepot\
+Software yang dipakai :
+◈ OpenCV
+◈ Python
+◈ Telepot
 ◈ ThonnyIDE
 ```
 
